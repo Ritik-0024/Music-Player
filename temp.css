@@ -1,0 +1,74 @@
+.flex{
+    display: flex;
+}
+
+.border{
+    border: 2px solid red;
+    margin : 3px;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* When content is scrollable */
+.scrollable::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;           /* dark track */
+  border-radius: 20px;        /* fully rounded track */
+  margin: 4px;                /* space at top & bottom */
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;        /* green thumb */
+  border-radius: 20px;        /* pill shape */
+  border: 3px solid #111;     /* creates gap between track & thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;        /* lighter on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #252525 #111;
+}
